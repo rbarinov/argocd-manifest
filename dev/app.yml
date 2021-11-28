@@ -16,7 +16,7 @@ spec:
         - name: regcred
       containers:
         - name: nginx
-          image: nginx
+          image: httpd
           imagePullPolicy: "Always"
           ports:
             - containerPort: 80
